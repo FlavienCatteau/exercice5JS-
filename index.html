@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_5</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <form>
+            <label for="firstNumber">Premier nombre : </label><input type="text" id="firstNumber" name="firstNumber"/><br/>
+            <label for="secondNumber">Deuxième nombre : </label><input type="text" id="secondNumber" name="secondNumber"/><br/>
+            <button  id="submit" onclick="multipli()" name ="submit">Valider</button>
+        </form>
+        <script type="text/javascript">
+            // Onclick et Function pour attribuer le script sur le bouton
+            function multipli(){
+                // alert(Math.trunc(firstNumber.value));
+                // alert(secondNumber.value);
+            // On utilise le Math.trunc pour tronquer le nombre 1
+                alert(Math.trunc(firstNumber.value)*secondNumber.value);
+            }
+        </script>
+    </body>
+</html>
